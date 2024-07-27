@@ -46,7 +46,7 @@ function Login() {
 
   return (
     <div className="main">
-      <div className="dotted">
+      {/* <div className="dotted">
         <hr className="lines"></hr>
         <hr className="lines"></hr>
         <hr className="lines"></hr>
@@ -57,7 +57,7 @@ function Login() {
         <hr className="lines"></hr>
         <hr className="lines"></hr>
         <hr className="lines"></hr>
-      </div>
+      </div> */}
       <div className="content">
         <div className="card-container">
           <div className="card">
