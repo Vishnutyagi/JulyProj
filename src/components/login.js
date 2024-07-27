@@ -66,10 +66,10 @@ function Login() {
             <form style={{width :"100%"}}>
               <label for="email">Your email</label>
               <input style={{height:"44px",width:"92%",margin:"4% 0%",padding: "0px 12px 0px 12px"
-  ,"border-radius": "6px"}} className="input" id="email" type="text" onChange={handlename}></input>
+  ,"border-radius": "6px",border: "1px solid #DEDEDE"}} className="input" id="email" type="text" onChange={handlename}></input>
               <label  for="pass">Password</label>
               <input style={{height:"44px",width:"92%",margin: "4% 0%",padding: "0px 12px 0px 12px"
-  ,"border-radius": "6px"}} className="input" id="pass" type="text" onChange={handlepassword}></input>
+  ,"border-radius": "6px",border: "1px solid #DEDEDE"}} className="input" id="pass" type="text" onChange={handlepassword}></input>
               <button type="submit" className="continue" onClick={handleClick}>CONTINUE</button>
             </form>
             <div style={{"text-align":"center"}}>
