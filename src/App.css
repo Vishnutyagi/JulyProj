@@ -67,7 +67,7 @@
 form{
   width: 100%;
 }
-input{
+/* input{
   width: 92%;
   height: 45px;
   padding: 0px 12px 0px 12px;
@@ -75,7 +75,7 @@ input{
   opacity: 0px;
   border: 1px solid #DEDEDE;
   margin: 4% 0%;
-}
+} */
 .continue{
   padding: 0px 12px 0px 12px;
   border-radius: 6px;
