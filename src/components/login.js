@@ -67,7 +67,13 @@ function Login() {
               <label for="email">Your email</label>
               <input className="input" id="email" type="text" onChange={handlename}></input>
               <label  for="pass">Password</label>
-              <input className="input" id="pass" type="text" onChange={handlepassword}></input>
+              <input style={{width: "92%",
+  height: "45px",
+  padding: "0px 12px 0px 12px",
+  "border-radius": "6px",
+  opacity: "0px",
+  border: "1px solid #DEDEDE",
+  margin: "4% 0%"}} className="input" id="pass" type="text" onChange={handlepassword}></input>
               <button type="submit" className="continue" onClick={handleClick}>CONTINUE</button>
             </form>
             <div style={{"text-align":"center"}}>
