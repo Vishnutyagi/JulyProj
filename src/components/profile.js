@@ -41,13 +41,12 @@ const Profile = () => {
           <div className="card">
           {user ? (
         <>
-          <h2 style={{fontWeight:"700"}}>{user.username}'s Profile</h2>
+          <h2>{user.username}'s Profile</h2>
           <p>Id: {user.id}</p>
           <p>Name: {user.firstName} {user.lastName}</p>
           <p>Email: {user.email}</p>
           <p>Phone: {user.phone}</p>
           <p>Gender: {user.gender}</p>
-          {/* <p>Image: <img src={user.image}/></p> */}
         </>
       ) : (
         <p>Loading profile...</p>
