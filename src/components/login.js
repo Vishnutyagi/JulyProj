@@ -65,9 +65,9 @@ function Login() {
             <h2>Sign in to your account</h2>
             <form>
               <label for="email">Your email</label>
-              <input className="input" id="email" type="text" onChange={handlename}></input>
+              <input style={{height:"44px"}} className="input" id="email" type="text" onChange={handlename}></input>
               <label  for="pass">Password</label>
-              <input className="input" id="pass" type="text" onChange={handlepassword}></input>
+              <input style={{height:"44px"}} className="input" id="pass" type="text" onChange={handlepassword}></input>
               <button type="submit" className="continue" onClick={handleClick}>CONTINUE</button>
             </form>
             <div style={{"text-align":"center"}}>
