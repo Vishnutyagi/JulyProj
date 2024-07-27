@@ -22,7 +22,6 @@
    margin:0 !important;
  }
 .main{
-  font-family: Mulish;
   width: 100vw;
   height: 100vh;
   background-color: #f8fafc;
@@ -39,14 +38,14 @@
   transform-origin:top left;
   transform: rotate(10deg);
 }
-/* .dotted{
+.dotted{
   width: 100vw;
   height: 100vh;
   position: fixed;
   display: flex;
   justify-content: space-between;
   z-index: 1;
-} */
+}
 .content{
   display: flex;
   flex-direction: column;
@@ -74,9 +73,8 @@ input{
   padding: 0px 12px 0px 12px;
   border-radius: 6px;
   opacity: 0px;
-  border: 1px solid #000000;
+  border: 1px solid #DEDEDE;
   margin: 4% 0%;
-  color: black;
 }
 .continue{
   padding: 0px 12px 0px 12px;
@@ -90,25 +88,20 @@ input{
   font-weight: 800;
 }
 p{
-  font-family: Mulish;
   margin: 0;
   font-weight: 400px;
 }
 h2{
-  font-family: Mulish;
   font-weight: 700;
 }
 label{
-  font-family: Mulish;
   font-weight: 500;
 }
 .signup{
-  font-family: Mulish;
   background-color: white;
   border: none;
   color: #625BF7;
   font-weight: 700;
-  font-family: Mulish;
 }
 @media screen and (max-width:440px) {
   .card-container{
