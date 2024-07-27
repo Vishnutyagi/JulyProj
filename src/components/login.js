@@ -63,11 +63,11 @@ function Login() {
           <div className="card">
             <p>Welcome back! 👋</p>
             <h2>Sign in to your account</h2>
-            <form>
+            <form style={{width :"100%"}}>
               <label for="email">Your email</label>
-              <input style={{height:"44px"}} className="input" id="email" type="text" onChange={handlename}></input>
+              <input style={{height:"44px",width:"92%"}} className="input" id="email" type="text" onChange={handlename}></input>
               <label  for="pass">Password</label>
-              <input style={{height:"44px"}} className="input" id="pass" type="text" onChange={handlepassword}></input>
+              <input style={{height:"44px",width:"92%"}} className="input" id="pass" type="text" onChange={handlepassword}></input>
               <button type="submit" className="continue" onClick={handleClick}>CONTINUE</button>
             </form>
             <div style={{"text-align":"center"}}>
