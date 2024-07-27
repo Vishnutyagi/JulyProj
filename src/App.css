@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
+.lines{
+  border-top: dotted 1px;
+  /* color: black; */
+  opacity: 6%;
+  margin: 0 !important;
+  width: 300px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.line1{
+  background-color: #5BF7DB;
+  border: none;
+  left: 15px !important;
+  position: absolute;
+  top: 0;
+ margin:0 !important;
+ }
+ .line2{
+   background-color: #5BF7DB;
+   border: none;
+   right: 55px !important;
+   position: absolute;
+   top: 0;
+   margin:0 !important;
+ }
+.main{
+  font-family: Mulish;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8fafc;
+  overflow: hidden;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content{
+  height: 40%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.white{
+  background-color: white;
+  width: 105%;
+  height: 60%;
+  top: 264px;
+  transform-origin:top left;
+  transform: rotate(10deg);
+}
+.dotted{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+.content{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.card-container{
+  position: absolute;
+  top: 50px;
+  width: 400px;
+  z-index: 2;
+}
+.card{
+  box-shadow: 0px 4px 5px rgb(231, 229, 229);
+  padding: 10%;
+  background-color: white;
+}
+form{
+  width: 100%;
+}
+input{
+  width: 92%;
+  height: 45px;
+  padding: 0px 12px 0px 12px;
+  border-radius: 6px;
+  opacity: 0px;
+  /* border: 1px solid #DEDEDE; */
+  margin: 4% 0%;
+}
+.continue{
+  padding: 0px 12px 0px 12px;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+  border: none;
   color: white;
+  width: 100%;
+  height: 45px;
+  margin: 4% 0%;
+  font-weight: 800;
 }
-
-.App-link {
-  color: #61dafb;
+p{
+  font-family: Mulish;
+  margin: 0;
+  font-weight: 400px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h2{
+  font-family: Mulish;
+  font-weight: 700;
+}
+label{
+  font-family: Mulish;
+  font-weight: 500;
+}
+.signup{
+  font-family: Mulish;
+  background-color: white;
+  border: none;
+  color: #625BF7;
+  font-weight: 700;
+  font-family: Mulish;
+}
+@media screen and (max-width:440px) {
+  .card-container{
+    position: absolute;
+    top: 80px;
+    width: 85%;
+    z-index: 2;
   }
-  to {
-    transform: rotate(360deg);
+  .white{
+    background-color: white;
+    width: 150%;
+    height: 60%;
+    top: 264px;
+    transform-origin:top left;
+    transform: rotate(30deg);
   }
+  .line1{
+    background-color: #5BF7DB;
+    border: none;
+    left: 10px !important;
+    position: absolute;
+    top: 0;
+   margin:0 !important;
+   }
+   .line2{
+     background-color: #5BF7DB;
+     border: none;
+     right: 135px !important;
+     position: absolute;
+     top: 0;
+     margin:0 !important;
+   }
+   .dotted{
+    display: none;
+   }
 }
