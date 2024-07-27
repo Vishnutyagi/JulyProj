@@ -22,6 +22,7 @@
    margin:0 !important;
  }
 .main{
+  font-family: Mulish;
   width: 100vw;
   height: 100vh;
   background-color: #f8fafc;
@@ -88,20 +89,25 @@ form{
   font-weight: 800;
 }
 p{
+  font-family: Mulish;
   margin: 0;
   font-weight: 400px;
 }
 h2{
+  font-family: Mulish;
   font-weight: 700;
 }
 label{
+  font-family: Mulish;
   font-weight: 500;
 }
 .signup{
+  font-family: Mulish;
   background-color: white;
   border: none;
   color: #625BF7;
   font-weight: 700;
+  font-family: Mulish;
 }
 @media screen and (max-width:440px) {
   .card-container{
