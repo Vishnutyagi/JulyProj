@@ -47,7 +47,7 @@ const Profile = () => {
           <p>Email: {user.email}</p>
           <p>Phone: {user.phone}</p>
           <p>Gender: {user.gender}</p>
-          <p>Image: {<img src={user.image} alt="image"></img>}</p>
+          {/* <p>Image: <img src={user.image}/></p> */}
         </>
       ) : (
         <p>Loading profile...</p>
